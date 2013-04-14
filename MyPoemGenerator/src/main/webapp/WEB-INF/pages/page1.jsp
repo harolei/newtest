@@ -1,6 +1,6 @@
 <html>
 <body>
-<h2>${greet}</h2>
+<h2>${message}</h2>
 
 </body>
 </html>
