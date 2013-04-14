@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/page1.htm")
 public class PageOneController {
     @RequestMapping(method = RequestMethod.GET)
-    public String printWelcome(ModelMap model) {
+    public String printPage1(ModelMap model) {
         model.addAttribute("message", "Welcome to the first page!");
         return "page1";
     }
